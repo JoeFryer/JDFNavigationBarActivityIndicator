@@ -1,0 +1,10 @@
+target 'JDFNavigationBarActivityIndicator', :exclusive => true do
+  pod "JDFNavigationBarActivityIndicator", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JDFNavigationBarActivityIndicator", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
