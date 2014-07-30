@@ -215,7 +215,6 @@ static CGFloat const JDFNavigationBarActivityIndicatorAnimationDuration = 1.0f;
 - (CGRect)activityIndicatorFrame
 {
     CGRect frame = CGRectMake(0.0f, self.navigationBar.bounds.size.height - JDFNavigationBarActivityIndicatorHeight, self.navigationBar.bounds.size.width, JDFNavigationBarActivityIndicatorHeight);
-    NSLog(@"NavBar: %@ Self: %@", NSStringFromCGRect(self.navigationBar.bounds), NSStringFromCGRect(frame));
     return frame;
 }
 
