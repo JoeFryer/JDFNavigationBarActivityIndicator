@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "JDFNavigationBarActivityIndicator"
   s.version          = "1.0"
-  s.summary          = "JDFNavigationBarActivityIndicator is a UIView subclass that provides an easy, space-effective way to show an activity indicator on a UINavigationBar."
+  s.summary          = "A UIView subclass that provides an easy, space-effective way to show an activity indicator on a UINavigationBar."
   s.description      = <<-DESC
 JDFNavigationBarActivityIndicator is a UIView subclass that provides an easy, space-effective way to show an activity indicator on a UINavigationBar.
  
