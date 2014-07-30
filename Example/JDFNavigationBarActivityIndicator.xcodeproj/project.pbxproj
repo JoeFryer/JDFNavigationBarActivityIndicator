@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		716B4CBA2061402C88907F20 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536359D8D4C649188DA2D238 /* libPods-Tests.a */; };
 		A222724036FF46C2A82ABF57 /* libPods-JDFNavigationBarActivityIndicator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C6028032BE4CAF9C20BD46 /* libPods-JDFNavigationBarActivityIndicator.a */; };
+		F2F2B5F41989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2F2B5F31989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		9965912AD0CF4EE2852B0555 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F2F2B5F21989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFNavigationBarActivityIndicator.h; path = ../../Pod/Classes/JDFNavigationBarActivityIndicator.h; sourceTree = "<group>"; };
+		F2F2B5F31989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFNavigationBarActivityIndicator.m; path = ../../Pod/Classes/JDFNavigationBarActivityIndicator.m; sourceTree = "<group>"; };
 		FB6D118F8534405DBB24EC53 /* Pods-JDFNavigationBarActivityIndicator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDFNavigationBarActivityIndicator.xcconfig"; path = "Pods/Pods-JDFNavigationBarActivityIndicator.xcconfig"; sourceTree = "<group>"; };
 		FCC05549320347A8BC0C99F1 /* JDFNavigationBarActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDFNavigationBarActivityIndicator.podspec; path = ../JDFNavigationBarActivityIndicator.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +134,7 @@
 		6003F593195388D20070C39A /* JDFNavigationBarActivityIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				F2F2B5F11989AADD0055B6BB /* JDFNavigationBarActivityIndicator */,
 				6003F59C195388D20070C39A /* JDFAppDelegate.h */,
 				6003F59D195388D20070C39A /* JDFAppDelegate.m */,
 				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
@@ -181,6 +185,15 @@
 				9965912AD0CF4EE2852B0555 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F2F2B5F11989AADD0055B6BB /* JDFNavigationBarActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				F2F2B5F21989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.h */,
+				F2F2B5F31989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.m */,
+			);
+			name = JDFNavigationBarActivityIndicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* JDFAppDelegate.m in Sources */,
+				F2F2B5F41989AAEA0055B6BB /* JDFNavigationBarActivityIndicator.m in Sources */,
 				6003F5A7195388D20070C39A /* JDFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
