@@ -9,28 +9,23 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDFNavigationBarActivityIndicator"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JDFNavigationBarActivityIndicator."
+  s.version          = "1.0"
+  s.summary          = "JDFNavigationBarActivityIndicator is a UIView subclass that provides an easy, space-effective way to show an activity indicator on a UINavigationBar."
   s.description      = <<-DESC
-                       An optional longer description of JDFNavigationBarActivityIndicator
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JDFNavigationBarActivityIndicator"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+JDFNavigationBarActivityIndicator is a UIView subclass that provides an easy, space-effective way to show an activity indicator on a UINavigationBar.
+ 
+It is visually similar in concept to the progress indicator shown in iOS Safari, in that it appears as a thin, animating line at the bottom of a navigation bar. The difference is that it is an indeterminate progress indicator, making it useful for when you don't know the completion progress of a task.
+                        DESC
+  s.homepage         = "https://github.com/JoeFryer/JDFNavigationBarActivityIndicator"
   s.license          = 'MIT'
   s.author           = { "Joe Fryer" => "joe.d.fryer@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JDFNavigationBarActivityIndicator.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/JoeFryer/JDFNavigationBarActivityIndicator.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/joefryer88'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
