@@ -12,6 +12,7 @@
  
  You can supply a custom `color` and `highlightColor`.
 
+![](Screenshots/JDFActivityIndicator_DemoGif.gif)
 
 ## Usage
 
